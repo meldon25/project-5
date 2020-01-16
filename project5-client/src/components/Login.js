@@ -29,8 +29,8 @@ class Login extends Component {
       password: this.state.password
     }
 
-    fetch(user, 2)
-      .then(res => setUser(res.user))
+    fetch(user)
+      // .then(res => setUser(res.user))
       .then(() => history.push('/'))
       .catch(error => {
         console.error(error)

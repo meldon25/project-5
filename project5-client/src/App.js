@@ -4,6 +4,7 @@ import Login from './components/Login'
 import Register from './components/Register'
 import ItemPage from './components/ItemPage'
 import Header from './components/Header'
+import Wishlist from './components/Wishlist'
 import Hero from './components/Hero'
 import Container from './components/Container'
 import Footer from './components/Footer'
@@ -29,6 +30,8 @@ function App() {
       path="/login" component={Login} />
       <Route
       path="/register" component={Register} />
+      <Route
+      path="/wishlist" component={Wishlist} />
 
       </Switch>
       
